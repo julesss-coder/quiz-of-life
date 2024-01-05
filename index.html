@@ -13,16 +13,21 @@
 <body>
   <div class="intro py-3 bg-white text-center">
     <div class="container">
-      <h2 class="text-primary display-3 my-4">Quiz of Life</h2>
+      <h2 class="headline display-3 my-4">Quiz of Life</h2>
     </div>
   </div>
   
   <div class="quiz-result py-3 text-center bg-light d-none">
     <p>You have <span class="percentage display-3 blue">0%</span> life wisdom.</p>
+    <div>
+      <small>A random quote to increase or maintain your wisdom score:</small>
+      <blockquote class="quote blockquote">What three miracles are going to happen to you today?</blockquote>
+      <small>Taken from <i>Pronoia is the Antidote to Paranoia</i> by Rob Brezsny</small>
+    </div>
   </div>
 
   <!-- Quiz section -->
-  <div id="quiz" class="quiz py-4 bg-primary">
+  <div id="quiz" class="quiz py-4">
     <div class="container">
       <h2 class="my-5 text-white">Questions</h2>
 
@@ -90,7 +95,7 @@
           <div class="form-check my-2 text-white-50">
             <input type="radio" name="q5" value="B">
             <label class="form-check-label">Yes: everything you miss out on by not doing it, as well as your life and
-              your finite time.</label>
+              your finite time. <small>(quote from Marianne Cantwell's <i>How to be a Free Range Human</i>)</small></label>
           </div>
         </div>
         <button type="submit" class="btn btn-light" value="Submit">Submit</button>

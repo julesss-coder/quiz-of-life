@@ -1,3 +1,12 @@
 .blue {
   color: rgb(13,110,253);
 }
+
+.headline {
+  color: #3457D5;
+  font-weight: 500;
+}
+
+#quiz {
+  background-color: #3457D5;
+}
